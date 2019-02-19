@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mit bibliotek</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="slideshow/css/lightslider.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="slideshow/js/lightslider.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+   <header>
+     <img src="images/logo.png" id="logo" alt="Erhvervsakademi Århus">
+     <br>
+
+
+
+       <div class="menu">
+
+         <nav>
+           <div id="nav1" class="punkt" onclick="location.href='forside.html';"><p>Forside</p></div>
+          <div id="nav2" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Kontakt en <br> bibliotikar</p></div>
+           <div id="nav3" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Få hjælp til <br> din opgave</p></div>
+           <div id="nav4" class="punkt denne" onclick="location.href='mitbib.html';"><p>Mit bibliotek</p></div>
+           <div id="nav5" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Om biblioteket</p></div>
+           <div id="nav6" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Ågningstider</p></div>
+           <div id="nav7" class="punkt" onclick="location.href='index.html';"><p>Log ud</p></div>
+         </nav>
+       </div>
+
+   <div class="vl"></div>
+
+   <input class="soge" type="text">
+   <input class="soge2" onclick="window.location.href='soege-side.html'" type="submit" value="Søg">
+</header>
+
+<section id="profil">
+  <h2>Udlånte bøger</h2>
+
+   <article class="boeger">
+    <p id="bog1info">Lånt: 4. oktober 2018 <br>Skal afleveres 28. oktober 2018</p>
+  <img id="bog1" src="images/bog1.png" alt="bog">
+  </article>
+
+  <article class="boeger">
+    <p id="bog2info">Lånt: 4. oktober 2018 <br>Skal afleveres 28. oktober 2018</p>
+    <img id="bog3" src="images/bog3.png" alt="bog">
+ </article>
+
+
+
+
+ <button id="knap3"><a href="#" class="button">Forny udlån</a></button>
+
+  <h2>Reserverede bøger</h2> <br>
+
+  <p id=reservation>Du har ingen bøger reserveret</p> <br>
+
+  <h2>Tidligere lånt</h2>
+
+
+  <article class="boeger">
+   <img id="bog2" src="images/bog2.png"alt="bog">
+ </article>
+
+
+
+  <div class="knapper">
+      <button id="knap1"><a href="#" class="button">Reseverer igen</a></button>
+
+
+
+      <button id="knap2"><a href="#" class="button">Anbefal til en ven</a></button>
+  </div>
+
+</section>
+
+
+  <aside>
+    <div id="bruger">
+        <img id="patrick" src="images/patrick.png">
+        <p>Patrick Jensen</p>
+        <p>Multimediedesign <br> studerende</p>
+
+    </div>
+  </aside>
+
+      <div id="footer"></div>
+
+</body>
+
+</html>

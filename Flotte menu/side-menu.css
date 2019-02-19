@@ -1,0 +1,365 @@
+body {
+	font-family: "Lucida Sans regular", sans-serif;
+}
+
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Lucida Sans regular", sans-serif;
+}
+
+h1 {
+	font-family: "Lucida Sans demiboldt";
+}
+
+li {
+	list-style: none;
+
+}
+
+
+/*---------------FORSIDE*/
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 55%;
+	margin-top:160px;
+
+
+
+
+
+}
+
+
+#logo {
+
+	position: absolute;
+	right: 0%;
+	top: 0%;
+	width: 30%;
+	padding: 2%;
+
+
+}
+
+.forside {
+	position: absolute;
+	float: left;
+	padding-top: 45px;
+	padding-left: 32px;
+	color: white;
+}
+
+
+.kontakt {
+	position: absolute;
+	float: left;
+	padding-top: 35px;
+	padding-left: 20px;
+	color: white;
+}
+
+
+.opgave {
+	position: absolute;
+	float: left;
+	padding-top: 35px;
+	padding-left: 20px;
+	color: white;
+}
+
+
+
+.log-ud {
+	position: absolute;
+	float: left;
+	padding-top: 43px;
+	padding-left: 25px;
+	font-size: 20px;
+
+}
+
+.profil {
+	position: absolute;
+	float: left;
+	padding-top: 45px;
+	padding-left: 6px;
+	font-size: 15px;
+	color: white;
+}
+
+
+.bib {
+	position: absolute;
+	float: left;
+	padding-top: 45px;
+	padding-left: 13px;
+	color: white;
+}
+
+
+.aabningstider {
+	position: absolute;
+	float: left;
+	padding-top: 42px;
+	padding-left:10px;
+	color: white;
+}
+
+
+.box1 {
+	position: absolute;
+	padding-top: 110px;
+	padding-left: 96px;
+
+
+}
+
+
+.box2 {
+	position: absolute;
+	padding-top: ;
+	padding-left: 96px;
+
+}
+
+
+.box3 {
+	position: absolute;
+	padding-top: 279px;
+	padding-left: 0px;
+}
+
+
+.box4 {
+	position: absolute;
+	padding-top: 55px;
+	padding-left: 0px;
+
+
+}
+
+.box5 {
+	position: absolute;
+	padding-top: 222px;
+	padding-left: 97px;
+
+
+
+}
+
+
+.box6 {
+	position: absolute;
+	padding-top: 167px;
+	padding-left: 0px;
+
+}
+
+
+
+.box7 {
+	position: absolute;
+	padding-top: 333px;
+	padding-left: 97px;
+
+}
+
+
+
+.top1 {
+	float: left;
+	border-right: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.middle1 {
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #55a9b5;
+
+}
+
+
+
+.bottom1 {
+	float: left;
+	border-left: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.top2 {
+	float: left;
+	border-right: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.middle2 {
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #55a9b5;
+
+}
+
+
+
+.bottom2 {
+	float: left;
+	border-left: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.top3 {
+	float: left;
+	border-right: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.middle3 {
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #55a9b5;
+
+}
+
+
+
+.bottom3 {
+	float: left;
+	border-left: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.top4 {
+	float: left;
+	border-right: 30px solid #4f8484;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.middle4 {
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #4f8484;
+
+}
+
+
+
+.bottom4 {
+	float: left;
+	border-left: 30px solid #4f8484;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.top5 {
+	float: left;
+	border-right: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.middle5 {
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #55a9b5;
+
+}
+
+
+
+.bottom5 {
+	float: left;
+	border-left: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+
+.top6 {
+	float: left;
+	border-right: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.middle6 {
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #55a9b5;
+
+}
+
+
+
+.bottom6 {
+	float: left;
+	border-left: 30px solid #55a9b5;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.top7 {
+	float: left;
+	border-right: 30px solid #f0b339;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+
+.middle7 {
+	float: left;
+	width: 60px;
+	height: 104px;
+	background-color: #f0b339;
+
+}
+
+
+
+.bottom7 {
+	float: left;
+	border-left: 30px solid #f0b339;
+	border-top: 52px solid transparent;
+	border-bottom: 52px solid transparent;
+}
+
+.vl {
+	border-left: 3px solid #333333;
+	height: 435px;
+	margin-left: 75%;
+
+}
+
+
+
+
+/*---------------SLUT FORSIDE*/

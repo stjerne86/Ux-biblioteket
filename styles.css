@@ -1,0 +1,659 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: "Lucida Sans regular", sans-serif;
+}
+
+header {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: .5rem;
+	margin-top: 15px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+section{
+  width: 50%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+
+
+h1 {
+	font-family: "Lucida Sans demiboldt";
+    font-size: 23px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+		color: #007791;
+}
+
+h2{
+	color: #007791;
+}
+
+li {
+	list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+button{
+width: 100px;
+font-family: 'Lucida Sans Regular', sans-serif;
+border-radius: 25px;
+height: 120%;
+
+}
+
+
+/*MENU*/
+
+#logo{
+  position:fixed;
+  top: 0;
+  right: 2vw;
+  width: 20vw;
+}
+
+.menu{
+margin-left: 10%;
+
+}
+
+nav{
+  height: 250px;
+}
+
+.punkt {
+  position: relative;
+  width: 103px;
+  height: 57.74px;
+  background-color: #55a9b5;
+  margin: 28.87px 0;
+  border-left: solid 3px #333333;
+  border-right: solid 3px #333333;
+  transform: rotate(30deg);
+}
+
+.punkt:before,
+.punkt:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 69.71px;
+  height: 70.71px;
+  transform: scaleY(0.5774) rotate(-44deg);
+  background-color: inherit;
+  left: 11.6447px;
+}
+
+.punkt:before {
+  top: -36.3553px;
+  border-top: solid 4.2426px #333333;
+  border-right: solid 4.2426px #333333;
+}
+
+.punkt:after {
+  bottom: -39.3553px;
+  border-bottom: solid 4.2426px #333333;
+  border-left: solid 4.2426px #333333;
+}
+
+/*HOVER*/
+
+.punkt:hover {
+  width: 108px;
+  height: 62.74px;
+  cursor: pointer;
+	background-color: #4f8484;
+	box-shadow: 7px 7px 10px 2px rgba(0, 0, 0, 0.5);
+	transition: none !important;
+}
+
+.punkt:hover:before,
+.punkt:hover:after {
+  width: 74.71px;
+  height: 75.71px;
+}
+
+.punkt:hover:after{
+	box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+	transition: none !important;
+}
+
+/*---------hover slut*/
+
+.punkt p{
+  color: #fff;
+  position: absolute;
+  z-index: 20;
+  transform: rotate(-29deg);
+  transform-origin: top left;
+  margin-top: 40px;
+  margin-left: -3px;
+  text-align: center;
+  width: 100%;
+  pointer-events: none;
+	font-size: 15px;
+}
+
+.denne{
+	background-color: #4f8484;
+	box-shadow: 7px 7px 10px 2px rgba(0, 0, 0, 0.5);
+	pointer-events: none;
+	cursor: context-menu;
+}
+
+.denne:after{
+	box-shadow: -10px 10px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+#nav1{
+  left: 19%;
+  top: 90px;
+}
+
+#nav2{
+  left: 27.5%;
+  top: -55px;
+}
+
+#nav3{
+  left: 36.1%;
+  top: -199px;
+}
+
+#nav4{
+  left: 36.1%;
+  top: -170px;
+}
+
+#nav5{
+  left: 44.6%;
+  top: -200px;
+}
+
+#nav6{
+  left: 44.6%;
+  top: -397px;
+}
+
+#nav7{
+  left: 53.1%;
+  top: -428px;
+	background-color: #f0b339;
+}
+
+#nav7 p{
+	color: black;
+}
+
+/*flyt dem START*/
+
+#flyt1{
+	position: fixed;
+  left: 79%;
+  top: 90px;
+	transition: 1s ease;
+
+}
+
+#flyt2{
+	left: 87%;
+	top: 150px;
+	position: fixed;
+	transition: 1s ease;
+}
+
+#flyt3{
+	left: 78.9%;
+  top: 208px;
+  position: fixed;
+	transition: 1s ease;
+}
+
+#flyt4{
+	left: 87.1%;
+	top: 261px;
+	position: fixed;
+	transition: 1s ease;
+}
+
+#flyt5{
+	position: fixed;
+	left: 79.6%;
+	top: 324px;
+	transition: 1s ease;
+}
+
+#flyt6{
+	left: 87.5%;
+	top: 381px;
+	position: fixed;
+	transition: 1s ease;
+}
+
+#flyt7{
+	left: 79.8%;
+	top: 439px;
+	position: fixed;
+	background-color: #f0b339;
+	transition: 1s ease;
+}
+
+#flyt7 p{
+	color: black;
+}
+
+/*flyt dem SLUT*/
+
+.vl {
+    position: fixed;
+    top: 10%;
+		right: 25%;
+		border-left: 3px solid #333333;
+		height: 435px;
+
+}
+
+/*SØGEBAR*/
+
+.soge2{
+  border-radius: 10px;
+  height: 5vh;
+  width: 5vw;
+  background-color: #A5A4A4;
+}
+
+.soge{
+  border-radius: 25px;
+  height: 5vh;
+  width: 20vw;
+  margin-left: -5%;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.fixed{
+	position: fixed;
+	top: 8%;
+	left: 39.7%;
+}
+
+.fixed2{
+	position: fixed;
+	top: 8%;
+	left: 55.7%;
+}
+
+
+/*FOOTER*/
+
+#footer {
+    width: 100%;
+    background-color: #4f8484;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*LANDINGPAGE*/
+
+#landingpage {
+	background-image: url("images/Landingpage-gitter.png");
+	overflow: hidden;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+}
+
+#lstart {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background-color: #55a9b5;
+	border-radius: 8px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 250%;
+	margin-bottom: 2%;
+	margin-right: 10%;
+	width: 12%;
+	box-shadow: 10px 10px 80px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+#llogo {
+	position: fixed;
+	top: -2%;
+	left: 0;
+	width: 30%;
+	padding: 2%;
+	padding-top: 0;
+}
+
+#login{
+	cursor: pointer;
+}
+
+#login p:hover{
+	font-size: 35pt;
+
+}
+
+/*SLIDER*/
+
+.lightSlider li {
+	text-align: center;
+	height: 80vh;
+	margin-top: 20vh;
+}
+
+.lightSlider li p {
+	font-size: 100%;
+	background: rgba(240, 179, 57, 0.8);
+	border-radius: 8px;
+	border: 2px solid black;
+	text-align: center;
+	width: 20%;
+	margin-left: 40%;
+	margin-top: -3.8%;
+	z-index: 100;
+	position: relative;
+}
+
+.active .lpic {
+	width: 65%;
+	margin-top: -20%;
+	z-index: -10;
+	transition: 0.8s linear;
+	box-shadow: 15px 15px 13px 2px rgba(0, 0, 0, 0.1);
+}
+
+.lpic {
+	width: 40%;
+	transition: 0.8s linear;
+	/*box-shadow: 15px 15px rgba(0, 0, 0, 0.1);*/
+	box-shadow: 7px 7px 10px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 0px;
+}
+
+.ptxt {
+	margin-top: -100%;
+	transition: 0.8s linear;
+	border-radius: 1px;
+}
+
+.active .ptxt {
+	margin-top: -7%;
+	z-index: 100;
+	font-size: 70%;
+	width: 35%;
+	margin-left: 32%;
+	transition: 0.8s linear;
+}
+
+
+.active {
+	height: 250%;
+	font-size: 250%;
+
+}
+
+
+
+/*---------------FORSIDE*/
+
+#lblGreetings{
+	font-size: 20px;
+	font-family: "Lucida Sans demiboldt";
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+
+.greetings {
+	margin-top: 100px;
+	margin-left: 15%;
+}
+
+/*---------------SLUT FORSIDE*/
+
+/*---------------OM Biblioteket*/
+
+#bibliotek {
+    width: 30%;
+    padding-top: 5%;
+    padding-bottom: 25px;
+    margin-left: 25%;
+}
+
+/*---------------SLUT om Biblioteket*/
+
+
+/*---------------PROFIL*/
+
+#profil{
+	margin-left: 25%;
+}
+
+#bruger {
+    padding-top: 400px;
+    width: 250px;
+    border: 5px solid #007791;
+    padding: 25px;
+    margin: 25px;
+    margin-top: 50px;
+    position: absolute;
+		float: right;
+		top: 400px;
+}
+
+#patrick {
+    width: 100%;
+}
+
+#bog1info, #bog2info{
+	grid-area: text1;
+}
+
+
+#bog1 {
+    display: block;
+    z-index: -1;
+    width: 70%;
+		grid-area: bil;
+
+}
+
+#bog2 {
+    display: block;
+    width: 30%;
+	grid-area: bil;
+}
+
+
+#bog3 {
+    display: block;
+    z-index: -1;
+    width: 70%;
+		grid-area: bil;
+}
+
+#knap1, #knap2, #knap3{
+background-color:  #F0B339;
+margin-bottom: 10%;
+height: auto;
+}
+
+button a{
+	color: black;
+}
+
+
+a:hover {
+    color: black;
+}
+
+.boeger {
+  display: grid;
+  grid: 'bil  text1 text1 text1';
+height: 200px;
+width: 70%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
+/*---------------SLUT profil*/
+
+/*---------------SØG EFTER BØGER*/
+
+
+/*SOEG-SIDE*/
+
+.indhold {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  grid-gap: .5rem;
+  grid-row-gap: .5rem;
+  width: 55%;
+  margin-left: 20%;
+  margin-top: 10vh;
+	min-height: 12.8vh;
+}
+
+a {
+grid-area: bil;
+width: 15vw;
+}
+
+.bog img{
+  width: 15vw;
+}
+
+.center{
+    grid-area: bil;
+}
+
+.bog h4, .bog h3, .bog p{
+margin: 0;
+margin-top: 7%;
+text-align: left;
+width: 35vw;
+}
+
+.fokus{
+  position: fixed;
+  top: 1vh;
+  left: 2vw;
+  width: 12vw;
+  opacity: 0;
+}
+
+.fokus img{
+	width: 12vw;
+}
+
+.show{
+  opacity: 1 !important;
+}
+
+
+
+.tit{
+  grid-area: text1;
+}
+
+.forfat{
+  grid-area: text2;
+}
+
+.beskriv{
+  grid-area: text3;
+}
+
+.mere{
+  grid-area: knap1;
+}
+
+.reserver{
+  grid-area: knap2;
+}
+
+#blaa{
+    background-color: #55A9B5;
+}
+
+.ora{
+  background-color: #F0B339;
+}
+
+#dialog{
+  position: fixed;
+  top: 30%;
+  width: 29vw;
+  left: 33vw;
+  z-index: 1000;
+  background-color: #fff;
+  padding: 1%;
+  border: 4px dotted #55A9B5;
+  border-radius: 25px;
+  opacity: 0;
+}
+
+#dialog h3{
+  margin: 0;
+  text-align: center;
+  width: 28vw;
+	margin-bottom: 5%;
+}
+
+#dialog p{
+  text-align: center;
+	width: 28vw;
+	padding-right: 6%;
+	margin-bottom: 5%;
+}
+
+.knap{
+  margin-top: 10%;
+  height: 22px;
+  width: 100%;
+  margin-right: 50px;
+}
+
+.fyld{
+  grid-area: mer;
+  width: 12vw;
+}
+
+.bog {
+  display: grid;
+  grid: 'bil bil text1 text1 text1'
+        'bil bil text2 text2 text2'
+        'bil bil text3 text3 text3'
+        'bil bil . . .'
+        'bil bil . . . '
+        'mer knap1 knap1 knap2 . ';
+  padding: 10px;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+
+}
+/*---------------SLUT søg efter bøger*/

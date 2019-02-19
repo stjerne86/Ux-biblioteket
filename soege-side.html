@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Søg på biblioteket</title>
+</head>
+
+<body>
+
+  <header id="seeker" class="header">
+    <img src="images/logo.png" id="logo" alt="Erhvervsakademi Århus">
+    <br>
+
+
+      <div class="menu">
+
+        <nav>
+          <div id="nav1" class="punkt" onclick="location.href='forside.html';"><p>Forside</p></div>
+         <div id="nav2" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Kontakt en <br> bibliotikar</p></div>
+          <div id="nav3" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Få hjælp til <br> din opgave</p></div>
+          <div id="nav4" class="punkt" onclick="location.href='mitbib.html';"><p>Mit bibliotek</p></div>
+          <div id="nav5" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Om biblioteket</p></div>
+          <div id="nav6" class="punkt" onclick="location.href='ombiblioteket.html';"><p>Ågningstider</p></div>
+          <div id="nav7" class="punkt" onclick="location.href='index.html';"><p>Log ud</p></div>
+        </nav>
+      </div>
+
+  <div class="vl"></div>
+
+
+    <!-- form -->
+    <input class="soge" id="myTextBox" type="text">
+    <input class="soge2" id="submit" type="submit" value="Søg">
+  </header>
+
+  <!-- søgeresultater -->
+  <div id="indhold" class="indhold"></div>
+
+  <!-- kan evt. viser uri til bibliotekets api (testredskab) -->
+  <div id="test" class=test></div>
+
+  <div class="fokus"><img src="images/sogning.png" alt="uddybet søgning"></div>
+
+  <div id="dialog" title="Basic dialog">
+</div>
+
+    <div id="footer"></div>
+
+
+</body>
+</html>
